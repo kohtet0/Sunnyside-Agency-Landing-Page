@@ -6,7 +6,10 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      body: 'Barlow',
+      name: 'Fraunces',
+    },
   },
   plugins: [
     require('flowbite/plugin')
